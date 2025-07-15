@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Keifont';
+    src: url('images/k-font/keifont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* General Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Keifont', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -45,8 +52,10 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.5em;
+    font-family: 'Keifont', cursive;
+    font-size: 3.5em;
     margin-bottom: 40px;
+    color: #FF00FF; /* Magenta color for emphasis */
 }
 
 .banzai-gif {
@@ -55,6 +64,8 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+.banzai-man-art {
     font-family: monospace;
     font-size: 3em;
     line-height: 1;

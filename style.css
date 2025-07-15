@@ -110,6 +110,18 @@ body {
 }
 
 /* Testimonials Section */
+.video-item {
+    margin-bottom: 30px;
+}
+
+.work-video {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .testimonial-item {
     background-color: #fff;
     padding: 30px;

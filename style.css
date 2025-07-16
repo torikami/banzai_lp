@@ -88,6 +88,12 @@ body {
     background-color: #e65c00;
 }
 
+.back-button {
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
 /* Features Section */
 .features-grid {
     display: grid;
@@ -112,6 +118,47 @@ body {
 /* Testimonials Section */
 .video-item {
     margin-bottom: 30px;
+}
+
+/* Goods Section */
+.goods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.goods-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.goods-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.goods-item h3 {
+    color: #ff6600;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.goods-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+.goods-item .price {
+    font-weight: bold;
+    color: #E53935;
+    font-size: 1.2em;
+    margin-top: 15px;
 }
 
 .work-video {

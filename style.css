@@ -76,7 +76,7 @@ body {
 .cta-button {
     display: inline-block;
     background-color: #ff6600; /* Orange */
-    color: #ff6600; /* Orange */
+    color: #FFFF00; /* Yellow */
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;

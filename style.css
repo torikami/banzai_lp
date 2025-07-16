@@ -76,7 +76,7 @@ body {
 .cta-button {
     display: inline-block;
     background-color: #ff6600; /* Orange */
-    color: #ff6600; /* Orange */
+    color: #FFFF00; /* Yellow */
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -141,6 +141,46 @@ body {
     font-weight: bold;
     color: #333;
 }
+
+/* Goods Page */
+.goods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.goods-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.goods-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.goods-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.goods-item p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.goods-item .price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff6600;
+}
+
 
 /* Footer */
 .footer {
